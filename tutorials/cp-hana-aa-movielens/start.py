@@ -6,9 +6,8 @@ for i in range(50):
 	w = open('cp-hana-aa-movielens-' + str(i) + '.md', 'w')
 	index = 0
 	for line in r:
-		if index == 1:
-			print(line)
-			w.write(str(i) + line)
+		if index == 1:			
+			w.write(line[0:7] + str(i) + line[7:])
 		else:
 			w.write(line)
 		index += 1

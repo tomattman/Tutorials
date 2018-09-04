@@ -1,5 +1,5 @@
 ---
-32title: Configure your SAPUI5 application
+title: 32Configure your SAPUI5 application
 description: Configure your SAPUI5 application and your connect it to your SAP HANA XS OData service to consume your `Movielens` recommendations
 auto_validation: true
 primary_tag: topic>machine-learning
