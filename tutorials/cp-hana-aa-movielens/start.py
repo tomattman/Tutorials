@@ -10,6 +10,7 @@ for i in range(50):
 			w.write(line + '  ' + str(i))
 		else:
 			w.write(line)
+		index += 1
 	r.close()
 	w.close()
 #l = [line.strip() for line in f]
