@@ -7,7 +7,8 @@ for i in range(50):
 	index = 0
 	for line in r:
 		if index == 1:
-			w.write(line + '  ' + str(i))
+			print(line)
+			w.write(str(i) + line)
 		else:
 			w.write(line)
 		index += 1
